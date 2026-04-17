@@ -1,6 +1,6 @@
 To run Octopus in Openshift, run the below docker build command to rebase the image
 
-docker build -t octopus-ubi-test -f Dockerfile .
+`docker build -t octopus-ubi-test -f Dockerfile .`
 
 In the values.yaml, update repository value with location of the rebased container/location, and update the databaseConnectionString value with your Octopus Deploy db location.
 
