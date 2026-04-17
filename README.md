@@ -59,6 +59,7 @@ Also review and update:
 ## 4) Install the Octopus Helm chart
 
 Use the official Octopus Deploy Helm chart and pass this repository's `values.yaml`:
+[Octopus Deploy Helm chart](https://github.com/OctopusDeploy/helm-charts/tree/c69e0f2d16d2d119e88adbd7bb8617cdc1e78226/charts/octopus-deploy)
 
 ```bash
 helm repo add octopusdeploy https://octopus-helm-charts.s3.amazonaws.com
